@@ -1,428 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Vishal Sripathi | FrontEnd Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="vishalsripathi, vishal" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Vishal Sripathi | FrontEnd Developer, Javascript, Typescript, Angular" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
-  </head>
+  <!-- Put here your site title -->
+  <title>Vishal Sripathi | FrontEnd Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="vishalsripathi, vishal" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Vishal Sripathi | FrontEnd Developer, Javascript, Typescript, Angular" />
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Vishal Sripathi</span>
-          <br />
-          I'm the Developer you need.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Hire Me</a>
-        </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Vishal Sripathi</span>
+        <br />
+        I'm the Developer you need.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Hire Me</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              My name is Vishal Sripathi I'm a 24 year old Front End Developer based in Hyderabad, with over 2.5 years
+              of strong experience as a Front-End Developer and with solid understanding of web technologies, developed
+              multiple Single Page Applications (SPA’s) using javascript libraries and Framworks like React.js, and
+              Angular. Involved in all stages of Software Development Life Cycle(SDLC) as well as working in Agile based
+              development environment, participating in sprint/iterations and scrum meetings.
+            </p>
+            <p class="about-wrapper__info-text">
+              Team player with excellent communication, Trouble shooting, Debugging and Strong analytical
+              problem-solving skills to
+              deliver Technology products and consulting solutions.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://drive.google.com/file/d/1rVMqAbL5r_4IXpjcJVpQebhGb3nPGal_/edit">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Recipe Book</h3>
+              <div>
+                <p class="mb-4">
+                  Recipe Book is a SPA where users can add or browse recipes and manage ingredients for speciﬁc recipe.
+                  Moreover, it allows users to add all the ingredients to shopping list. This project uses Firebase as
+                  backend which allows users to create account and login with their credentials. Authenticated users can
+                  then edit recipes, plus save and fetch data from the Firebase API endpoint.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://recipe-book-91f0d.web.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/Recipe-Book">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                My name is Vishal Sripathi I'm a 23 year old Front End Developer based in Hyderabad, Being a self taught developer I have a serious passion and got an opportunity to go as deep as required in many skills which I possess. I have a strong practical experience with most of the Frontend web technologies which includes HTML5, CSS3, SCSS, BOOTSTRAP, JAVASCRIPT, TYPESCRIPT, ANGULAR and few more. Moreover I have a good understanding of Data Structures and Algorithms required for Javascript. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1JjYHbTggdwlFTla2lrBCq1IXXbnbgYHY/">
-                  View Resume
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://recipe-book-91f0d.web.app/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/RecipeBook.png" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Weather App</h3>
+              <div>
+                <p class="mb-4">
+                  This weather app is built using Angular-9 along with OpenWeatherMap API. It displays Weather
+                  Information of four cities simultaneously. Moreover, Weather app's weather report gets updated for
+                  every 30seconds.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://custom-weather-app.web.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/weather-app">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://custom-weather-app.web.app/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/weatherapp.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Recipe Book</h3>
-                <div>
-                  <p class="mb-4">
-                    Recipe Book is a SPA where users can add or browse recipes and manage ingredients for speciﬁc recipe. Moreover, it allows users to add all the ingredients to shopping list. This project uses Firebase as backend which allows users to create account and login with their credentials. Authenticated users can then edit recipes, plus save and fetch data from the Firebase API endpoint.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://recipe-book-91f0d.web.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/Recipe-Book">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://recipe-book-91f0d.web.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/RecipeBook.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Weather App</h3>
-                <div>
-                  <p class="mb-4">
-                    This weather app is built using Angular-9 along with OpenWeatherMap API. It displays Weather Information of four cities simultaneously. Moreover, Weather app's weather report gets updated for every 30seconds.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://custom-weather-app.web.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/weather-app">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://custom-weather-app.web.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/weatherapp.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Nobel Prize Winners</h3>
-                <div>
-                  <p class="mb-4">
-                    This Nobel Prize Winners web app is built using Angular Framework and api.nobelprize.org. It helps in retrieving Nobel Prize Winners from 1900 to 2019. Users can sort the list based on year and category.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nobelprizewinners.web.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/nobel-prize-winners">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://nobelprizewinners.web.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/Nobelprizewinners.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">School Results Board</h3>
-                <div>
-                  <p class="mb-4">
-                    School Results Board is a modern exam results page where students and parents can find results. Moreover there is an admission form for new joiners with form validation.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://students-results-board.web.app/students-results">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/students-results-board">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://students-results-board.web.app/students-results" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/schoolresults.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Organiser</h3>
-                <div>
-                  <p class="mb-4">
-                    Project Organiser is a simple application built using Typescript, where one can organise projects based on their status. Later you can drag and drop the project from Active Projects list to Finished Projects list and vice-versa.
-                    Features implemented in this project are oops, inheritance, types, interfaces, decorators and much more.
-
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://typescript-project-planner.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/typescript-project-planner">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://typescript-project-planner.netlify.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/projectplanner.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Cosmo</h3>
-                <div>
-                  <p class="mb-4">
-                    Cosmo is a Landing webpage which includes an about page, a service page, blog and contact page. Complete website is built using HTML5 and Bootstrap4.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://bootstrap-cosmo.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/bootstrap-theme-Cosmo">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://bootstrap-cosmo.netlify.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/cosmo.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Maseco</h3>
-                <div>
-                  <p class="mb-4">
-                    Maseco is a webpage about a book, it's author, and his contact details. Built using Bootstrap4 and HTML5.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://bootstrap-maseco.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/bootstrap-maseco">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://bootstrap-maseco.netlify.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/maseco.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Cryptocurrency Website</h3>
-                <div>
-                  <p class="mb-4">
-                    A simple landing page created from scratch using HTML5 and CSS3. This webpage is built for a cryptocurrency landing page.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://static-cryptocurrency.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/Cryptocurrency-Landing-Page">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://static-cryptocurrency.netlify.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/cryptocurrency.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Dancing Robot</h3>
-                <div>
-                  <p class="mb-4">
-                    Hover over the body parts of the robot and you can see the robot makes dance move's. Created entirely with Html and CSS features.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://dancing-robot-js.netlify.app">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/Dancing-Robot">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://dancing-robot-js.netlify.app" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/dancingrobot.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title"> Movie Collection</h3>
-                <div>
-                  <p class="mb-4">
-                    This web app allows us to store our favourite movies by entering title, movie poster image URl, and rating. I have used the latest plain javascript for building this application.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://movie-collection.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vishalsripathi/movie-collection">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://movie-collection.netlify.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/MovieCollection.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            Have a question? | I’m always open to discussing
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:sripathivishalreddy@gmail.com"
-            >Call to Action</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="https://twitter.com/_vishalsripathi" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="https://instagram.com/vishalsripathi" target="_blank">
-            <i class="fa fa-instagram fa-inverse"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/vishalsripathi" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/vishalsripathi" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <p class="footer__text">
-          © 2020 | <a href="https://github.com/vishalsripathi" target="_blank">Vishal Sripathi</a>
-          </a>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          Have a question? | I’m always open to discussing
         </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:sripathivishalreddy@gmail.com">Call to
+          Action</a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://twitter.com/_vishalsripathi" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a href="https://instagram.com/vishalsripathi" target="_blank">
+          <i class="fa fa-instagram fa-inverse"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/vishalsripathi" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/vishalsripathi" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <p class="footer__text">
+        © 2022 | <a href="https://github.com/vishalsripathi" target="_blank">Vishal Sripathi</a>
+        </a>
+      </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
